@@ -1,0 +1,42 @@
+{
+   "action": {
+      "default_icon": "img/icon_48.png",
+      "default_popup": "html/options.html",
+      "default_title": "__MSG_ext_title__"
+   },
+   "author": "furyu",
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/jszip.min.js", "js/FileSaver.min.js", "js/init.js" ],
+      "matches": [ "*://twitter.com/*", "*://pbs.twimg.com/media/*", "*://tweetdeck.twitter.com/*", "*://mobile.twitter.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "js/twOpenOriginalImage.user.js" ],
+      "matches": [ "*://twitter.com/*", "*://pbs.twimg.com/media/*", "*://tweetdeck.twitter.com/*", "*://mobile.twitter.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_ext_description__",
+   "host_permissions": [ "*://pbs.twimg.com/media/*" ],
+   "icons": {
+      "128": "img/icon_128.png",
+      "16": "img/icon_16.png",
+      "48": "img/icon_48.png",
+      "96": "img/icon_96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmuRd/1sMBkgF1BxKypOWhfhV4ctnQBcvhEkKoiawGq5AN1YY/jq5zPt5GF7ROHlVG3Avj8sgjGpJplk5HxXpDYxMU+go+arwBYBmKYhcoPFDyXerZIB2cddeNb7OWrhbNC5X7oMZeogZ8cjKL9iEmk8upMbsJHrencWJFcbraTSLK0Qfgf9iZq0oq4LmIOMB3snejub1g8GG/kVUuo9DJgIaEX+oARwxdczdQTk3AN0JdFH1MaxwecSLb9wIZ7atIJJS2/HVCPpN0IAx/bMMxAMKlNrDJGTnT+MikO/w8OrMEG2TSacnp6mLlsKOzBAzIh8JFy5wZxjgx4WzupAWKQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_ext_title__",
+   "options_ui": {
+      "open_in_tab": false,
+      "page": "html/options.html"
+   },
+   "permissions": [ "contextMenus", "downloads", "storage" ],
+   "short_name": "__MSG_ext_short_name__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.12.8.2102"
+}

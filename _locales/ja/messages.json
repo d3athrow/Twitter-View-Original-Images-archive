@@ -1,0 +1,95 @@
+{
+   "BUTTON_TEXT": {
+      "message": "原寸画像"
+   },
+   "BUTTON_TEXT_HEADER": {
+      "message": "画像を開くボタンの文字列"
+   },
+   "DEFAULT": {
+      "message": "デフォルトに戻す"
+   },
+   "DEFAULT_ACTION_ON_CLICK_EVENT": {
+      "message": "クリック時のデフォルト動作（※[Alt]押下時は逆の動作）"
+   },
+   "DISABLED": {
+      "message": "無効"
+   },
+   "DISPLAY_ALL_IN_ONE_PAGE_DESCRIPTION": {
+      "message": "全ての画像を同一ページで開く"
+   },
+   "DISPLAY_ONE_PER_PAGE_DESCRIPTION": {
+      "message": "画像を個別に開く"
+   },
+   "DISPLAY_ORIGINAL_BUTTONS": {
+      "message": "画像を開くボタンの表示"
+   },
+   "DISPLAY_OVERLAY": {
+      "message": "オーバーレイ（タイムラインと同一のタブ上で開く）"
+   },
+   "DOMATION": {
+      "message": "贈り物 🎁 歓迎！"
+   },
+   "DOWNLOAD_HELPER_IS_VALID_HEADER": {
+      "message": "画像ダウンロードヘルパー"
+   },
+   "DOWNLOAD_ORIGINAL_IMAGE": {
+      "message": "原寸画像を保存"
+   },
+   "ENABLED": {
+      "message": "有効"
+   },
+   "ENABLED_ON_TWEETDECK": {
+      "message": "TweetDeck での動作"
+   },
+   "HIDE_DOWNLOAD_BUTTON_AUTOMATICALLY": {
+      "message": "ダウンロードボタンを自動的に隠す(オーバーレイ時)"
+   },
+   "OPTIONS": {
+      "message": "Twitter 原寸びゅー"
+   },
+   "OVERRIDE_CLICK_EVENT": {
+      "message": "ツイート上のサムネイル画像クリックで開く"
+   },
+   "OVERRIDE_GALLERY_FOR_TWEETDECK": {
+      "message": "TweetDeck: ギャラリー機能（画像ポップアップ）を置換"
+   },
+   "SAME_FILENAME_AS_IN_ZIP": {
+      "message": "個別ダウンロード時のファイル名をZIP中のものと揃える"
+   },
+   "SET": {
+      "message": "設定"
+   },
+   "START": {
+      "message": "動作開始"
+   },
+   "STOP": {
+      "message": "動作停止"
+   },
+   "SUPPRESS_FILENAME_SUFFIX": {
+      "message": "ファイル名の接尾辞(-orig等)抑制"
+   },
+   "SWAP_IMAGE_URL": {
+      "message": "タイムライン上の画像を原寸画像に置換"
+   },
+   "TAB_SORTING": {
+      "message": "タブ並び替え"
+   },
+   "TAB_SORTING_ENABLED": {
+      "message": "[1][2][3][4]"
+   },
+   "UNDER_SUSPENSION": {
+      "message": "停止中"
+   },
+   "ext_description": {
+      "description": "The description of the extension.",
+      "message": "Web版Twitter・TweetDeckで、原寸画像の表示と保存が簡単にできるようになります。"
+   },
+   "ext_short_name": {
+      "description": "The short version of the extension's name.",
+      "message": "TVOI"
+   },
+   "ext_title": {
+      "description": "The title of the extension.",
+      "message": "Twitter 原寸びゅー"
+   }
+}
